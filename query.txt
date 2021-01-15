@@ -1,0 +1,270 @@
+/* INSTRUKSI
+   1. Jalankan SQL Server Management Studio.
+   2. Buat database dengan nama uasbasdat.
+   3. Jika ternyata database sudah ada, hapus semua tabelnya.
+   4. Klik New Query, lalu copy semua script ini dan Paste di SSMS lalu klik Excecute
+*/
+
+USE [uasbasdat]
+GO
+/****** Object:  Table [dbo].[dosen]    Script Date: 12/01/2021 11:04:34 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[dosen](
+	[id] [numeric](2, 0) IDENTITY(1,1) NOT NULL,
+	[nama] [varchar](max) NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[jadwal]    Script Date: 12/01/2021 11:04:34 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[jadwal](
+	[hari] [varchar](6) NULL,
+	[mulai] [time](7) NULL,
+	[selesai] [time](7) NULL,
+	[id] [numeric](2, 0) NULL,
+	[kode] [numeric](2, 0) NULL,
+	[ruang] [varchar](max) NULL,
+	[kelas] [varchar](max) NULL,
+	[numerator] [numeric](18, 0) IDENTITY(1,1) NOT NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[makul]    Script Date: 12/01/2021 11:04:34 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[makul](
+	[kode] [numeric](2, 0) IDENTITY(1,1) NOT NULL,
+	[judul] [varchar](max) NULL,
+	[sks] [numeric](1, 0) NULL,
+	[id] [numeric](2, 0) NULL,
+	[semester] [numeric](1, 0) NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+SET IDENTITY_INSERT [dbo].[dosen] ON 
+GO
+INSERT [dbo].[dosen] ([id], [nama]) VALUES (CAST(1 AS Numeric(2, 0)), N'AHMAD JAZULI, S.Kom., M.Kom')
+GO
+INSERT [dbo].[dosen] ([id], [nama]) VALUES (CAST(2 AS Numeric(2, 0)), N'TUTIK KHOTIMAH, M.Kom')
+GO
+INSERT [dbo].[dosen] ([id], [nama]) VALUES (CAST(3 AS Numeric(2, 0)), N'ANASTASYA LATUBESSY, S.Kom, M.Cs')
+GO
+INSERT [dbo].[dosen] ([id], [nama]) VALUES (CAST(4 AS Numeric(2, 0)), N'ESTI WIJAYANTI, M.Kom')
+GO
+INSERT [dbo].[dosen] ([id], [nama]) VALUES (CAST(5 AS Numeric(2, 0)), N'EVANITA, S.Kom, M.Kom')
+GO
+INSERT [dbo].[dosen] ([id], [nama]) VALUES (CAST(6 AS Numeric(2, 0)), N'ENDANG SUPRIYATI, S.Kom, M.Kom')
+GO
+INSERT [dbo].[dosen] ([id], [nama]) VALUES (CAST(7 AS Numeric(2, 0)), N'MUKHAMAD NURKAMID, S.Kom, M.Cs')
+GO
+INSERT [dbo].[dosen] ([id], [nama]) VALUES (CAST(8 AS Numeric(2, 0)), N'RATIH NINDYASARI, S.Kom., M.Kom.')
+GO
+INSERT [dbo].[dosen] ([id], [nama]) VALUES (CAST(9 AS Numeric(2, 0)), N'Hanik Hidayati, S.Pdi., M.Pd.')
+GO
+INSERT [dbo].[dosen] ([id], [nama]) VALUES (CAST(10 AS Numeric(2, 0)), N'Dr. AHMAD HARIYADI, S.Sos.I, S.Pd, M.Pd')
+GO
+INSERT [dbo].[dosen] ([id], [nama]) VALUES (CAST(11 AS Numeric(2, 0)), N'Darsin, S.E., M.Si.')
+GO
+INSERT [dbo].[dosen] ([id], [nama]) VALUES (CAST(12 AS Numeric(2, 0)), N'MARJUKI, MPd')
+GO
+INSERT [dbo].[dosen] ([id], [nama]) VALUES (CAST(13 AS Numeric(2, 0)), N'NKHOIRUL WAHYUDIN, M.Pd.ULL')
+GO
+INSERT [dbo].[dosen] ([id], [nama]) VALUES (CAST(14 AS Numeric(2, 0)), N'Dr. RISMIYANTO, SS, M. Pd.')
+GO
+INSERT [dbo].[dosen] ([id], [nama]) VALUES (CAST(15 AS Numeric(2, 0)), N'Dr., Drs. MOHAMMAD KANZUNNUDIN, MPd')
+GO
+INSERT [dbo].[dosen] ([id], [nama]) VALUES (CAST(16 AS Numeric(2, 0)), N'NOOR RINA KASTATRIA, M.Pd.')
+GO
+INSERT [dbo].[dosen] ([id], [nama]) VALUES (CAST(17 AS Numeric(2, 0)), N'RIZKYSARI MEIMAHARANI, S.Kom, M.Kom')
+GO
+INSERT [dbo].[dosen] ([id], [nama]) VALUES (CAST(18 AS Numeric(2, 0)), N'TRI LISTYORINI, M.Kom')
+GO
+INSERT [dbo].[dosen] ([id], [nama]) VALUES (CAST(19 AS Numeric(2, 0)), N'MASKURI ROZI, S Kom, M.Kom')
+GO
+INSERT [dbo].[dosen] ([id], [nama]) VALUES (CAST(20 AS Numeric(2, 0)), N'RINA FIATI, ST. M.Cs')
+GO
+INSERT [dbo].[dosen] ([id], [nama]) VALUES (CAST(21 AS Numeric(2, 0)), N'ALIF CATUR MURTI, S.KOM.M.KOM')
+GO
+INSERT [dbo].[dosen] ([id], [nama]) VALUES (CAST(22 AS Numeric(2, 0)), N'MUHAMMAD MALIK HAKIM, MTI')
+GO
+INSERT [dbo].[dosen] ([id], [nama]) VALUES (CAST(23 AS Numeric(2, 0)), N'WIBOWO HARRY SUGIHARTO,')
+GO
+INSERT [dbo].[dosen] ([id], [nama]) VALUES (CAST(24 AS Numeric(2, 0)), N'FARIED HERMAWAN, M KOM')
+GO
+INSERT [dbo].[dosen] ([id], [nama]) VALUES (CAST(25 AS Numeric(2, 0)), N'M. IMAM GHOZALI, M.Kom.')
+GO
+INSERT [dbo].[dosen] ([id], [nama]) VALUES (CAST(26 AS Numeric(2, 0)), N'AHMAD ABDUL CHAMID, S.Kom. M.Kom.')
+GO
+INSERT [dbo].[dosen] ([id], [nama]) VALUES (CAST(31 AS Numeric(2, 0)), N'KHOIRUL WAHYUDIN, M.Pd.')
+GO
+INSERT [dbo].[dosen] ([id], [nama]) VALUES (CAST(29 AS Numeric(2, 0)), N'ADITYA AKBAR RIADI, M.Kom.')
+GO
+INSERT [dbo].[dosen] ([id], [nama]) VALUES (CAST(30 AS Numeric(2, 0)), N'ARIEF SUSANTO, ST.M.Kom')
+GO
+SET IDENTITY_INSERT [dbo].[dosen] OFF
+GO
+SET IDENTITY_INSERT [dbo].[jadwal] ON 
+GO
+INSERT [dbo].[jadwal] ([hari], [mulai], [selesai], [id], [kode], [ruang], [kelas], [numerator]) VALUES (N'Senin', CAST(N'08:00:00' AS Time), CAST(N'10:29:00' AS Time), CAST(1 AS Numeric(2, 0)), CAST(1 AS Numeric(2, 0)), N'I.lt.IV.2', N'2A', CAST(1 AS Numeric(18, 0)))
+GO
+INSERT [dbo].[jadwal] ([hari], [mulai], [selesai], [id], [kode], [ruang], [kelas], [numerator]) VALUES (N'Selasa', CAST(N'08:00:00' AS Time), CAST(N'10:29:00' AS Time), CAST(1 AS Numeric(2, 0)), CAST(1 AS Numeric(2, 0)), N'ILt.I.1', N'1A', CAST(2 AS Numeric(18, 0)))
+GO
+INSERT [dbo].[jadwal] ([hari], [mulai], [selesai], [id], [kode], [ruang], [kelas], [numerator]) VALUES (N'Rabu', CAST(N'08:00:00' AS Time), CAST(N'10:29:00' AS Time), CAST(2 AS Numeric(2, 0)), CAST(3 AS Numeric(2, 0)), N'JLt.IV.4', N'2D', CAST(3 AS Numeric(18, 0)))
+GO
+INSERT [dbo].[jadwal] ([hari], [mulai], [selesai], [id], [kode], [ruang], [kelas], [numerator]) VALUES (N'Senin', CAST(N'08:00:00' AS Time), CAST(N'09:00:00' AS Time), CAST(29 AS Numeric(2, 0)), CAST(19 AS Numeric(2, 0)), N'ILt.I.1', N'1A', CAST(10 AS Numeric(18, 0)))
+GO
+INSERT [dbo].[jadwal] ([hari], [mulai], [selesai], [id], [kode], [ruang], [kelas], [numerator]) VALUES (N'Senin', CAST(N'08:00:00' AS Time), CAST(N'08:40:00' AS Time), CAST(14 AS Numeric(2, 0)), CAST(13 AS Numeric(2, 0)), N'ILt.I.1', N'1A', CAST(11 AS Numeric(18, 0)))
+GO
+INSERT [dbo].[jadwal] ([hari], [mulai], [selesai], [id], [kode], [ruang], [kelas], [numerator]) VALUES (N'Senin', CAST(N'08:00:00' AS Time), CAST(N'10:00:00' AS Time), CAST(6 AS Numeric(2, 0)), CAST(9 AS Numeric(2, 0)), N'ILt.I.1', N'1A', CAST(12 AS Numeric(18, 0)))
+GO
+INSERT [dbo].[jadwal] ([hari], [mulai], [selesai], [id], [kode], [ruang], [kelas], [numerator]) VALUES (N'Kamis', CAST(N'08:00:00' AS Time), CAST(N'09:00:00' AS Time), CAST(2 AS Numeric(2, 0)), CAST(3 AS Numeric(2, 0)), N'ILt.I.1', N'1C', CAST(13 AS Numeric(18, 0)))
+GO
+INSERT [dbo].[jadwal] ([hari], [mulai], [selesai], [id], [kode], [ruang], [kelas], [numerator]) VALUES (N'Senin', CAST(N'08:00:00' AS Time), CAST(N'08:00:00' AS Time), CAST(9 AS Numeric(2, 0)), CAST(11 AS Numeric(2, 0)), N'ILt.I.1', N'1A', CAST(14 AS Numeric(18, 0)))
+GO
+INSERT [dbo].[jadwal] ([hari], [mulai], [selesai], [id], [kode], [ruang], [kelas], [numerator]) VALUES (N'Senin', CAST(N'09:00:00' AS Time), CAST(N'09:00:00' AS Time), CAST(9 AS Numeric(2, 0)), CAST(11 AS Numeric(2, 0)), N'ILt.I.1', N'1A', CAST(15 AS Numeric(18, 0)))
+GO
+SET IDENTITY_INSERT [dbo].[jadwal] OFF
+GO
+SET IDENTITY_INSERT [dbo].[makul] ON 
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(1 AS Numeric(2, 0)), N'PEMROGRAMAN BASIS DATA', CAST(2 AS Numeric(1, 0)), CAST(1 AS Numeric(2, 0)), CAST(3 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(2 AS Numeric(2, 0)), N'PRAKTIKUM PEMROGRAMAN BASIS DATA', CAST(1 AS Numeric(1, 0)), CAST(1 AS Numeric(2, 0)), CAST(3 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(3 AS Numeric(2, 0)), N'DATA MINING', CAST(3 AS Numeric(1, 0)), CAST(2 AS Numeric(2, 0)), CAST(3 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(4 AS Numeric(2, 0)), N'ANALISA DAN PERANCANGAN SISTEM', CAST(3 AS Numeric(1, 0)), CAST(3 AS Numeric(2, 0)), CAST(3 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(5 AS Numeric(2, 0)), N'REKAYASA PERANGKAT LUNAK', CAST(2 AS Numeric(1, 0)), CAST(8 AS Numeric(2, 0)), CAST(3 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(6 AS Numeric(2, 0)), N'STATISTIKA DAN PROBABILITAS', CAST(2 AS Numeric(1, 0)), CAST(4 AS Numeric(2, 0)), CAST(3 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(7 AS Numeric(2, 0)), N'PRAKTIKUM STATISTIKA TEKNIK', CAST(1 AS Numeric(1, 0)), CAST(4 AS Numeric(2, 0)), CAST(3 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(8 AS Numeric(2, 0)), N'MATEMATIKA DISKRIT', CAST(2 AS Numeric(1, 0)), CAST(5 AS Numeric(2, 0)), CAST(3 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(9 AS Numeric(2, 0)), N'LOGIKA FUZZY', CAST(3 AS Numeric(1, 0)), CAST(6 AS Numeric(2, 0)), CAST(3 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(10 AS Numeric(2, 0)), N'PRAKTIKUM LOGIKA FUZZY', CAST(1 AS Numeric(1, 0)), CAST(6 AS Numeric(2, 0)), CAST(3 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(11 AS Numeric(2, 0)), N'PENDIDIKAN AGAMA', CAST(2 AS Numeric(1, 0)), CAST(9 AS Numeric(2, 0)), CAST(1 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(12 AS Numeric(2, 0)), N'PENDIDIKAN PANCASILA', CAST(2 AS Numeric(1, 0)), CAST(10 AS Numeric(2, 0)), CAST(1 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(13 AS Numeric(2, 0)), N'BAHASA INGGRIS', CAST(3 AS Numeric(1, 0)), CAST(12 AS Numeric(2, 0)), CAST(1 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(14 AS Numeric(2, 0)), N'BAHASA INDONESIA', CAST(2 AS Numeric(1, 0)), CAST(15 AS Numeric(2, 0)), CAST(1 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(15 AS Numeric(2, 0)), N'PRAKTEK DASAR KOMPUTER', CAST(1 AS Numeric(1, 0)), CAST(17 AS Numeric(2, 0)), CAST(1 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(16 AS Numeric(2, 0)), N'SISTEM OPERASI', CAST(2 AS Numeric(1, 0)), CAST(18 AS Numeric(2, 0)), CAST(1 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(17 AS Numeric(2, 0)), N'PRAKTIKUM SISTEM OPERASI', CAST(1 AS Numeric(1, 0)), CAST(18 AS Numeric(2, 0)), CAST(1 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(18 AS Numeric(2, 0)), N'METODOLOGI PENELITIAN', CAST(3 AS Numeric(1, 0)), CAST(20 AS Numeric(2, 0)), CAST(1 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(19 AS Numeric(2, 0)), N'ALGORITMA DAN PEMROGRAMAN', CAST(3 AS Numeric(1, 0)), CAST(21 AS Numeric(2, 0)), CAST(1 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(21 AS Numeric(2, 0)), N'PRAKTIKUM ALGORITMA DAN PEMROGRAMAN', CAST(1 AS Numeric(1, 0)), CAST(21 AS Numeric(2, 0)), CAST(1 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(22 AS Numeric(2, 0)), N'MANAJEMEN JARINGAN KOMPUTER', CAST(3 AS Numeric(1, 0)), CAST(8 AS Numeric(2, 0)), CAST(5 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(23 AS Numeric(2, 0)), N'KEAMANAN JARINGAN KOMPUTER', CAST(3 AS Numeric(1, 0)), CAST(8 AS Numeric(2, 0)), CAST(5 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(24 AS Numeric(2, 0)), N'SISTEM DIGITAL', CAST(3 AS Numeric(1, 0)), CAST(22 AS Numeric(2, 0)), CAST(5 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(25 AS Numeric(2, 0)), N'PEMROGRAMAN ROBOTIK', CAST(3 AS Numeric(1, 0)), CAST(23 AS Numeric(2, 0)), CAST(5 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(26 AS Numeric(2, 0)), N'ANIMASI KOMPUTER', CAST(3 AS Numeric(1, 0)), CAST(24 AS Numeric(2, 0)), CAST(5 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(27 AS Numeric(2, 0)), N'PEMROGRAMAN ANDROID', CAST(3 AS Numeric(1, 0)), CAST(4 AS Numeric(2, 0)), CAST(5 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(28 AS Numeric(2, 0)), N'WEB SERVICE', CAST(3 AS Numeric(1, 0)), CAST(29 AS Numeric(2, 0)), CAST(5 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(29 AS Numeric(2, 0)), N'PEMROGRAMAN WEB BERBASIS FRAMEWORK', CAST(3 AS Numeric(1, 0)), CAST(8 AS Numeric(2, 0)), CAST(5 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(30 AS Numeric(2, 0)), N'JARINGAN KOMPUTER', CAST(3 AS Numeric(1, 0)), CAST(25 AS Numeric(2, 0)), CAST(5 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(31 AS Numeric(2, 0)), N'PRAKTIKUM JARINGAN KOMPUTER', CAST(1 AS Numeric(1, 0)), CAST(25 AS Numeric(2, 0)), CAST(5 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(32 AS Numeric(2, 0)), N'PEMROGRAMAN MICROCONTROLLER', CAST(3 AS Numeric(1, 0)), CAST(23 AS Numeric(2, 0)), CAST(5 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(33 AS Numeric(2, 0)), N'PEMROGRAMAN BERORIENTASI OBJEK', CAST(2 AS Numeric(1, 0)), CAST(7 AS Numeric(2, 0)), CAST(5 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(34 AS Numeric(2, 0)), N'PRAKTIKUM PEMROGRAMAN BERORIENTASI OBJEK', CAST(1 AS Numeric(1, 0)), CAST(7 AS Numeric(2, 0)), CAST(5 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(35 AS Numeric(2, 0)), N'SISTEM INFORMASI TERDISTRIBUSI', CAST(3 AS Numeric(1, 0)), CAST(26 AS Numeric(2, 0)), CAST(5 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(36 AS Numeric(2, 0)), N'PRAKTIKUM SISTEM INFORMASI TERDISTRIBUSI', CAST(1 AS Numeric(1, 0)), CAST(26 AS Numeric(2, 0)), CAST(5 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(37 AS Numeric(2, 0)), N'RISET OPERASI', CAST(2 AS Numeric(1, 0)), CAST(22 AS Numeric(2, 0)), CAST(5 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(38 AS Numeric(2, 0)), N'PRAKTEK KERJA LAPANGAN (PKL)', CAST(2 AS Numeric(1, 0)), CAST(5 AS Numeric(2, 0)), CAST(6 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(39 AS Numeric(2, 0)), N'WIDE AREA NETWORK', CAST(3 AS Numeric(1, 0)), CAST(19 AS Numeric(2, 0)), CAST(7 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(40 AS Numeric(2, 0)), N'INFORMATIKA ROBOTIKA', CAST(3 AS Numeric(1, 0)), CAST(23 AS Numeric(2, 0)), CAST(7 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(41 AS Numeric(2, 0)), N'PEMODELAN PROSES BISNIS', CAST(3 AS Numeric(1, 0)), CAST(22 AS Numeric(2, 0)), CAST(7 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(42 AS Numeric(2, 0)), N'KULIAH KERJA NYATA (KKN)', CAST(2 AS Numeric(1, 0)), CAST(22 AS Numeric(2, 0)), CAST(7 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(43 AS Numeric(2, 0)), N'TESTING DAN IMPLEMENTASI SISTEM', CAST(3 AS Numeric(1, 0)), CAST(29 AS Numeric(2, 0)), CAST(7 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(44 AS Numeric(2, 0)), N'ANALISA KINERJA SISTEM', CAST(3 AS Numeric(1, 0)), CAST(30 AS Numeric(2, 0)), CAST(7 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(45 AS Numeric(2, 0)), N'SKRIPSI/PUBLIKASI ILMIAH', CAST(6 AS Numeric(1, 0)), CAST(8 AS Numeric(2, 0)), CAST(7 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(46 AS Numeric(2, 0)), N'SKRIPSI', CAST(8 AS Numeric(1, 0)), CAST(8 AS Numeric(2, 0)), CAST(7 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(47 AS Numeric(2, 0)), N'PENDIDIKAN PANCASILA', CAST(2 AS Numeric(1, 0)), CAST(11 AS Numeric(2, 0)), CAST(1 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(48 AS Numeric(2, 0)), N'BAHASA INGGRIS', CAST(3 AS Numeric(1, 0)), CAST(31 AS Numeric(2, 0)), CAST(1 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(49 AS Numeric(2, 0)), N'BAHASA INGGRIS', CAST(3 AS Numeric(1, 0)), CAST(14 AS Numeric(2, 0)), CAST(1 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(50 AS Numeric(2, 0)), N'BAHASA INDONESIA', CAST(2 AS Numeric(1, 0)), CAST(16 AS Numeric(2, 0)), CAST(1 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(51 AS Numeric(2, 0)), N'SISTEM OPERASI	', CAST(2 AS Numeric(1, 0)), CAST(19 AS Numeric(2, 0)), CAST(1 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(52 AS Numeric(2, 0)), N'PRAKTIKUM SISTEM OPERASI', CAST(1 AS Numeric(1, 0)), CAST(19 AS Numeric(2, 0)), CAST(1 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(53 AS Numeric(2, 0)), N'ALGORITMA DAN PEMROGRAMAN', CAST(3 AS Numeric(1, 0)), CAST(17 AS Numeric(2, 0)), CAST(1 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(54 AS Numeric(2, 0)), N'PEMROGRAMAN BASISDATA', CAST(2 AS Numeric(1, 0)), CAST(19 AS Numeric(2, 0)), CAST(3 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(55 AS Numeric(2, 0)), N'PRAKTIKUM PEMROGRAMAN BASISDATA', CAST(1 AS Numeric(1, 0)), CAST(19 AS Numeric(2, 0)), CAST(3 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(56 AS Numeric(2, 0)), N'E-BISNIS', CAST(2 AS Numeric(1, 0)), CAST(22 AS Numeric(2, 0)), CAST(4 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(57 AS Numeric(2, 0)), N'PENGANTAR BASISDATA', CAST(2 AS Numeric(1, 0)), CAST(1 AS Numeric(2, 0)), CAST(2 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(58 AS Numeric(2, 0)), N'PRAKTIKUM PENGANTAR BASISDATA', CAST(1 AS Numeric(1, 0)), CAST(1 AS Numeric(2, 0)), CAST(2 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(59 AS Numeric(2, 0)), N'ARSITEKTUR DAN ORGANISASI KOMPUTER', CAST(2 AS Numeric(1, 0)), CAST(25 AS Numeric(2, 0)), CAST(2 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(60 AS Numeric(2, 0)), N'ALJABAR LINIER', CAST(2 AS Numeric(1, 0)), CAST(18 AS Numeric(2, 0)), CAST(2 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(61 AS Numeric(2, 0)), N'LOGIKA INFORMATIKA', CAST(2 AS Numeric(1, 0)), CAST(2 AS Numeric(2, 0)), CAST(2 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(62 AS Numeric(2, 0)), N'STRUKTUR DATA', CAST(2 AS Numeric(1, 0)), CAST(3 AS Numeric(2, 0)), CAST(2 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(63 AS Numeric(2, 0)), N'PRAKTIKUM ARSITEKTUR DAN ORGANISASI KOMPUTER', CAST(1 AS Numeric(1, 0)), CAST(25 AS Numeric(2, 0)), CAST(2 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(64 AS Numeric(2, 0)), N'PEMROGRAMAN TERSTRUKTUR', CAST(2 AS Numeric(1, 0)), CAST(26 AS Numeric(2, 0)), CAST(2 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(65 AS Numeric(2, 0)), N'PRAKTIKUM PEMROGRAMAN TERSTRUKTUR', CAST(1 AS Numeric(1, 0)), CAST(26 AS Numeric(2, 0)), CAST(2 AS Numeric(1, 0)))
+GO
+INSERT [dbo].[makul] ([kode], [judul], [sks], [id], [semester]) VALUES (CAST(66 AS Numeric(2, 0)), N'PENDIDIKAN KEWARGANEGARAAN', CAST(2 AS Numeric(1, 0)), CAST(11 AS Numeric(2, 0)), CAST(2 AS Numeric(1, 0)))
+GO
+SET IDENTITY_INSERT [dbo].[makul] OFF
+GO
+USE [master]
+GO
+ALTER DATABASE [uasbasdat] SET  READ_WRITE 
+GO

@@ -1,0 +1,8 @@
+E:\Code\ASP.NET\UAS Basis Data\UAS Basis Data\bin\UAS Basis Data.dll
+E:\Code\ASP.NET\UAS Basis Data\UAS Basis Data\bin\UAS Basis Data.pdb
+E:\Code\ASP.NET\UAS Basis Data\UAS Basis Data\bin\UAS Basis Data.xml
+E:\Code\ASP.NET\UAS Basis Data\UAS Basis Data\obj\Debug\UAS_Basis_Data.Resources.resources
+E:\Code\ASP.NET\UAS Basis Data\UAS Basis Data\obj\Debug\UAS Basis Data.vbproj.GenerateResource.Cache
+E:\Code\ASP.NET\UAS Basis Data\UAS Basis Data\obj\Debug\UAS Basis Data.dll
+E:\Code\ASP.NET\UAS Basis Data\UAS Basis Data\obj\Debug\UAS Basis Data.xml
+E:\Code\ASP.NET\UAS Basis Data\UAS Basis Data\obj\Debug\UAS Basis Data.pdb

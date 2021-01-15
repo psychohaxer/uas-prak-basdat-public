@@ -1,0 +1,428 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+UASBasisData
+</name>
+</assembly>
+<members>
+<member name="F:UAS_Basis_Data.jadwal.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.jadwal.ddlPeriode">
+	<summary>
+ddlPeriode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.jadwal.DropDownList2">
+	<summary>
+DropDownList2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.jadwal.DropDownList3">
+	<summary>
+DropDownList3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.jadwal.ddlSemester">
+	<summary>
+ddlSemester control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.jadwal.btnSimpan">
+	<summary>
+btnSimpan control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.jadwal.ddlHari">
+	<summary>
+ddlHari control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.jadwal.ddlJam">
+	<summary>
+ddlJam control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.jadwal.ddlMenit">
+	<summary>
+ddlMenit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.jadwal.ddlJamS">
+	<summary>
+ddlJamS control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.jadwal.ddlMenitS">
+	<summary>
+ddlMenitS control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.jadwal.ddlDosen">
+	<summary>
+ddlDosen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.jadwal.dsDosen">
+	<summary>
+dsDosen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.jadwal.ddlMakul">
+	<summary>
+ddlMakul control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.jadwal.dsMakul">
+	<summary>
+dsMakul control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.jadwal.ddlGedung">
+	<summary>
+ddlGedung control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.jadwal.ddlLantai">
+	<summary>
+ddlLantai control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.jadwal.ddlRuang">
+	<summary>
+ddlRuang control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.jadwal.ddlKelas">
+	<summary>
+ddlKelas control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.jadwal.ddlSubKelas">
+	<summary>
+ddlSubKelas control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.jadwal.dgv">
+	<summary>
+dgv control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.jadwal.dsJadwal">
+	<summary>
+dsJadwal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.jadwal.ddlDosenSKS">
+	<summary>
+ddlDosenSKS control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.jadwal.labelSKS">
+	<summary>
+labelSKS control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.dashboard.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.dashboard.ddlPeriode">
+	<summary>
+ddlPeriode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.dashboard.DropDownList2">
+	<summary>
+DropDownList2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.dashboard.DropDownList3">
+	<summary>
+DropDownList3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.dashboard.ddlSemester">
+	<summary>
+ddlSemester control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.dashboard.btnSimpan">
+	<summary>
+btnSimpan control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.dashboard.ddlHari">
+	<summary>
+ddlHari control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.dashboard.ddlJam">
+	<summary>
+ddlJam control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.dashboard.ddlMenit">
+	<summary>
+ddlMenit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.dashboard.ddlJamS">
+	<summary>
+ddlJamS control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.dashboard.ddlMenitS">
+	<summary>
+ddlMenitS control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.dashboard.ddlDosen">
+	<summary>
+ddlDosen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.dashboard.dsDosen">
+	<summary>
+dsDosen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.dashboard.ddlMakul">
+	<summary>
+ddlMakul control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.dashboard.dsMakul">
+	<summary>
+dsMakul control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.dashboard.ddlGedung">
+	<summary>
+ddlGedung control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.dashboard.ddlLantai">
+	<summary>
+ddlLantai control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.dashboard.ddlRuang">
+	<summary>
+ddlRuang control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.dashboard.ddlKelas">
+	<summary>
+ddlKelas control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.dashboard.ddlSubKelas">
+	<summary>
+ddlSubKelas control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.dashboard.dgv">
+	<summary>
+dgv control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.dashboard.ddlDosenSKS">
+	<summary>
+ddlDosenSKS control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.dashboard.dsDosenSKS">
+	<summary>
+dsDosenSKS control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:UAS_Basis_Data.dashboard.labelSKS">
+	<summary>
+labelSKS control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:UAS_Basis_Data.My.MyWebExtension.Application">
+	<summary>
+ Returns information about the current application.
+ </summary>
+</member><member name="P:UAS_Basis_Data.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:UAS_Basis_Data.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:UAS_Basis_Data.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:UAS_Basis_Data.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:UAS_Basis_Data.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="P:UAS_Basis_Data.My.MyWebExtension.WebServices">
+	<summary>
+ Provides access to WebServices added to this project.
+ </summary>
+</member><member name="T:UAS_Basis_Data.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>
