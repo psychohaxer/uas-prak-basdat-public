@@ -3,7 +3,7 @@
 ## Tentang Project
 Project ini dibuat dengan Microsoft Visual Studio 2010.
 SANGAT DISARANKAN UNTUK MEMBUAT PROJEK BARU DAN MENGGUNAKAN PROJECT INI SEBAGAI REFERENSI.
-Link repository GitHub: 
+Link repository GitHub: https://github.com/psychohaxer/uas-prak-basdat-public
 
 ## Syarat dan Ketentuan
 Dengan menggunakan projek ini sebagai referensi, berarti Anda setuju dengan ketentuan berikut: 
