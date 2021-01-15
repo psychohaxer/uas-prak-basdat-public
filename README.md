@@ -2,7 +2,9 @@
 
 ## Tentang Project
 Project ini dibuat dengan Microsoft Visual Studio 2010.
+
 SANGAT DISARANKAN UNTUK MEMBUAT PROJEK BARU DAN MENGGUNAKAN PROJECT INI SEBAGAI REFERENSI.
+
 Link repository GitHub: https://github.com/psychohaxer/uas-prak-basdat-public
 
 ## Syarat dan Ketentuan
@@ -46,6 +48,7 @@ Buka project langsung dengan double-click 'UAS Basis Data.sln'.
 Jika Anda merasa terbantu dengan project ini, mohon support author dengan donasi seikhlasnya ke:
 
 *BRI 0112-01-079160-50-7 A/N FIRMAN ADI NUR FATIN*
+
 *OVO 081-325-374-731*
 
 Supaya author lebih semangat berbagi referensi coding hehe..
